@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import FeaturedProduct from './FeaturedProduct'
+import Category from './Category'
 
 export default function Home() {
     return (
@@ -24,6 +25,7 @@ export default function Home() {
                 </div>
             </div>
             
+            <Category />
 
             {/* <div className=' bg-[#EDEDED]'>
                 <div className='flex flex-row-reverse gap-30 justify-center mt-20 pb-20'>

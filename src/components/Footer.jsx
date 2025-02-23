@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
 
-            <div className='bg-[#EDEDED] xl:px-50  lg:px-15 md:px-7 sm:px-33 px-[15px] py-15'>
+            <div className='bg-[#EDEDED] xl:px-50 lg:px-15 md:px-7 sm:px-33 px-[15px] py-15'>
                 <div className='container mx-auto grid gap-10 md:grid-cols-4 sm:grid-cols-2 grid-cols-1'>
                     <div>
                         <img src={assets.belisitas_logo} alt="" className='logo1' />

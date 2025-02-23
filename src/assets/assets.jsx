@@ -15,6 +15,15 @@ import product_8 from './product_8.png'
 import product_9 from './product_9.png'
 import product_10 from './product_10.png'
 
+import category_1 from './category_image.jpg'
+
+import featured_1 from './featured_1.png'
+import featured_2 from './featured_2.png'
+import featured_3 from './featured_3.png'
+import featured_4 from './featured_4.png'
+import featured_5 from './featured_5.png'
+import featured_6 from './featured_6.png'
+
 
 
 export const assets = {
@@ -27,7 +36,6 @@ export const assets = {
 }
 
 export const product_list = [
-
     {
         _id: "1",
         name: "Product Name 1",
@@ -100,4 +108,47 @@ export const product_list = [
         category: "Mirror"
     }
 ]
-    
+
+export const category_list = [
+    {
+        category_name: "Chair",
+        category_image: category_1
+    }, {
+        category_name: "Mirror",
+        category_image: category_1
+    }, {
+        category_name: "Hamper",
+        category_image: category_1
+    }, {
+        category_name: "Basket",
+        category_image: category_1
+    }, {
+        category_name: "Table Lamp",
+        category_image: category_1
+    }, {
+        category_name: "Pendant Light",
+        category_image: category_1
+    },
+]
+
+export const featured_product = [
+    {
+        featured_name: "Pendant Light",
+        featured_image: featured_1
+    }, {
+        featured_name: "Chair",
+        featured_image: featured_2
+    }, {
+        featured_name: "Mirror",
+        featured_image: featured_3
+    }, {
+        featured_name: "Basket",
+        featured_image: featured_4
+    }, {
+        featured_name: "Table Lamp",
+        featured_image: featured_5
+    }, {
+        featured_name: "Hampars",
+        featured_image: featured_6
+    }
+]
